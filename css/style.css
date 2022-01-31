@@ -74,7 +74,7 @@ h1 {
 
 .slide-interactive-area {
     display: grid;
-    grid-template-columns: repeat(5, 300px);
+    grid-template-columns: repeat(10, 150px);
     /* gap: 10px; */
     font-size: 1.2ch;
 }
@@ -91,6 +91,10 @@ h1 {
 
 .slide-interactive-box-h-span-2 {
     grid-column: span 2;
+}
+
+.slide-interactive-box-h-span-4 {
+    grid-column: span 4;
 }
 
 .slide-interactive-box-v-span-2 {
