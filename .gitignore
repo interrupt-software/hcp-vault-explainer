@@ -1,0 +1,8 @@
+# MacOS generated files #
+#########################
+.DS_Store
+.DS_Store?
+
+# Any test files #
+##################
+test*

@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>HCP Vault</title>
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/fav-icon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/fav-icon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/fav-icon/favicon-16x16.png">
+    <link rel="manifest" href="/fav-icon/site.webmanifest">
+    <link rel="mask-icon" href="/fav-icon/safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="shortcut icon" href="/fav-icon/favicon.ico">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="msapplication-config" content="/fav-icon/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+
+    <meta http-equiv='cache-control' content='no-cache'>
+    <meta http-equiv='expires' content='0'>
+    <meta http-equiv='pragma' content='no-cache'>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script type="text/javascript" src="js/main.js"></script>
+</head>
+
+<body>
+    <div class="slide-backsplash-header" id="slide-backsplash-header">
+        <img src="img/vault_splash_left_top.svg" alt="">
+    </div>
+    <div class="slide-backsplash-footer" id="slide-backsplash-footer">
+        <img src="img/vault_splash_right_bottom.svg" alt="">
+    </div>
+    <div class="slide-interactive-overlay" id="overlay" data-visible="false">
+        <div id="overlay-content"></div>
+        <div class="overlay-close" id="overlay-close">
+            <img src="img/overlay-close.svg" alt="CLOSE">
+        </div>
+    </div>
+    <div class="slide">
+        <div class="slide-title">
+            <h1>HCP Vault -Hub and Spoke</h1>
+        </div>
+        <div class="slide-content">
+            <div class="slide-interactive-area">
+                <div class="slide-interactive-box" data-clickable="true" data-explainer="01" id="one">
+                    <img src="img/cell_col_01_row_01.svg" alt="">
+                </div>
+                <div class="slide-interactive-box" data-clickable="true" data-explainer="02" id="two">
+                    <img src="img/cell_col_02_row_01.svg" alt="">
+                </div>
+                <div class="slide-interactive-box" data-clickable="true" data-explainer="03" id="three">
+                    <img src="img/cell_col_03_row_01.svg" alt="">
+                </div>
+                <div class="slide-interactive-box" data-clickable="false" data-explainer="04" id="four">
+                    <img src="img/cell_col_04_row_01.svg" alt="">
+                </div>
+                <div class="slide-interactive-box" data-clickable="true" data-explainer="05" id="five">
+                    <img src="img/cell_col_05_row_01.svg" alt="">
+                </div>
+                <div class="slide-interactive-box" data-clickable="true" data-explainer="06" id="six">
+                    <img src="img/cell_col_01_row_02.svg" alt="">
+                </div>
+                <div class="slide-interactive-box" data-clickable="true" data-explainer="07" id="seven">
+                    <img src="img/cell_col_02_row_02.svg" alt="">
+                </div>
+                <div class="slide-interactive-box" data-clickable="false" data-explainer="08" id="eight">
+                    <img src="img/cell_col_03_row_02.svg" alt="">
+                </div>
+                <div class="slide-interactive-box-v-span-2" data-clickable="false" data-explainer="09" id="nine">
+                    <div class="explainer">
+                        <div class="explainer-number-container">
+                            <div class="explainer-number">1</div>
+                        </div>
+                        <div class="explainer-text">An event triggers the instantiation of an AWS Lambda function. Upon
+                            bootstrap, the Vault AWS Lambda Extension makes a request to obtain secrets from a Vault
+                            deployment.
+                        </div>
+                    </div>
+                    <div class="explainer">
+                        <div class="explainer-number-container">
+                            <div class="explainer-number">2</div>
+                        </div>
+                        <div class="explainer-text">The request is an HTTPS API call on TCP port 8200 pointing to a
+                            well-known DNS name that represent the Vault deployment.
+                        </div>
+                    </div>
+                    <div class="explainer">
+                        <div class="explainer-number-container">
+                            <div class="explainer-number">3</div>
+                        </div>
+                        <div class="explainer-text">A local Router forwards the traffic to a Transit Gateway using an
+                            attachment. A Transit Gateway accepts attachments from AWS VPCs, AWS Direct Connect, WAN
+                            network devices, or VPN Connections.
+                        </div>
+                    </div>
+                    <div class="explainer">
+                        <div class="explainer-number-container">
+                            <div class="explainer-number">4</div>
+                        </div>
+                        <div class="explainer-text">The AWS Transit Gateway forwards traffic to the trusted HCP HVN
+                            attachment.
+                        </div>
+                    </div>
+                </div>
+                <div class="slide-interactive-box-v-span-2" data-clickable="false" data-explainer="10" id="ten">
+                    <div class="explainer">
+                        <div class="explainer-number-container">
+                            <div class="explainer-number">5</div>
+                        </div>
+                        <div class="explainer-text">Upon receiving a service request, Vault uses its AWS Authentication
+                            Engine configuration to request validation of the callers identity. An account principal in
+                            the localized AWS Account AWS IAM vets the identity.
+                        </div>
+                    </div>
+                    <div class="explainer">
+                        <div class="explainer-number-container">
+                            <div class="explainer-number">6</div>
+                        </div>
+                        <div class="explainer-text">With a valid identity, Vault matches expressed policies that provide
+                            privileges to one or more secrets engines. The secrets engine provides a payload with the
+                            secrets material to the original caller.
+                        </div>
+                    </div>
+                    <div class="explainer">
+                        <div class="explainer-number-container">
+                            <div class="explainer-number">7</div>
+                        </div>
+                        <div class="explainer-text">The extension writes the secrets to a private location that is
+                            accessible in the Lambda Execution Environment and then signals for readiness.
+                        </div>
+                    </div>
+                    <div class="explainer">
+                        <div class="explainer-number-container">
+                            <div class="explainer-number">8</div>
+                        </div>
+                        <div class="explainer-text">The AWS Lambda runtime function reads the secrets and uses the
+                            payload for a front-end or back-end operation.
+                        </div>
+                    </div>
+                </div>
+                <div class="slide-interactive-box" data-clickable="true" data-explainer="11" id="eleven">
+                    <img src="img/cell_col_01_row_03.svg" alt="">
+                </div>
+                <div class="slide-interactive-box" data-clickable="false" data-explainer="12" id="twelve">
+                    <img src="img/cell_col_02_row_03.svg" alt="">
+                </div>
+                <div class="slide-interactive-box" data-clickable="false" data-explainer="13" id="thirteen">
+                    <img src="img/cell_col_03_row_03.svg" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

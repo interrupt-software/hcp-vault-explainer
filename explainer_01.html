@@ -1,0 +1,16 @@
+<h2>Secrets injection with Lambda Extension</h2>
+<ul>
+    <li>
+        The extension is configured via Lambda environment variables. Most of the Vault CLI client's environment
+        variables are available, as well as some additional variables to configure auth, which secret(s) to read and
+        where to write secrets.
+    </li>
+    <li>
+        An event triggers the instantiation of an AWS Lambda function. Upon bootstrap, the Vault AWS Lambda Extension
+        makes a request to obtain secrets from a Vault deployment.
+    </li>
+    <li>
+        The extension writes the secrets to a private location that is accessible in the Lambda Execution
+        Environment and then signals for readiness.
+    </li>
+</ul>
