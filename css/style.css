@@ -1,5 +1,7 @@
 :root {
     --main-bg-color: #FBFAF5;
+    --main-ac-color: #F2F2F3;
+    --main-sc-color: #FFF9CF;
     --main-fg-color: #1C1D20;
     --overlay-display: block;
     --overlay-margin-left: 0px;
@@ -8,23 +10,33 @@
     --overlay-translatex-out: -200%;
   }
 
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
 body {
-    min-height: 100vh;
+    font-family: 'Roboto', sans-serif;
     text-rendering: optimizeSpeed;
     line-height: 1.5;
     display: flex;
     align-items: center;
-
     place-content: center;
-    min-height: 80vh;
-    margin: 3%;
+    min-height: minmax(80vh, 100vh);
+    margin: 5% 10% 5% 10%;
     background: var(--main-bg-color);
+    /* background-image: linear-gradient(90deg, var(--main-bg-color), var(--main-sc-color), var(--main-ac-color));
+    background-size: 400%;
+    animation: background-animation 30s infinite alternate;  */
     overflow: hidden;
-}  
+}
 
-html * {
-    font-family: Verdana, sans-serif;
-  }
+@keyframes background-animation {
+    0% {
+        background-position: left;
+    }
+    100% {
+        background-position: right;
+    }
+    
+}
 
 h1 {
     font-size: 300%;
@@ -74,7 +86,7 @@ h1 {
 
 .slide-interactive-area {
     display: grid;
-    grid-template-columns: repeat(10, 150px);
+    grid-template-columns: repeat(9, 150px);
     /* gap: 10px; */
     font-size: 1.2ch;
 }
@@ -87,6 +99,11 @@ h1 {
     height: 200px;
     opacity: 0.75;
     color: #27292C;
+}
+
+.slide-interactive-box > img {
+    width: 300px;
+    height: 200px;
 }
 
 .slide-interactive-box-h-span-2 {

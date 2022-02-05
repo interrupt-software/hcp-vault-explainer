@@ -1,1 +1,28 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?><!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd"><svg width="100%" height="100%" viewBox="0 0 1250 1667" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;"><g id="h12"><g id="HVN-Transit-Gateway"><text x="230.706px" y="740.617px" style="font-family:'Gilmer-Bold', 'Gilmer';font-weight:700;font-size:75px;fill:#1d1f25;">HVN <tspan x="411.723px 453.996px 480.744px " y="740.617px 740.617px 740.617px ">Tra</tspan>nsi<tspan x="634.16px " y="740.617px ">t</tspan> Ga<tspan x="791.702px 820.775px 863.498px 923.096px 970.844px " y="740.617px 740.617px 740.617px 740.617px 740.617px ">teway</tspan></text><text x="401.143px" y="832.283px" style="font-family:'Gilmer-Bold', 'Gilmer';font-weight:700;font-size:75px;fill:#1d1f25;">A<tspan x="453.766px 484.639px 513.712px 562.06px 605.158px " y="832.283px 832.283px 832.283px 832.283px 832.283px ">ttach</tspan>men<tspan x="812.275px " y="832.283px ">t</tspan></text></g><g id="Identity-Validation"><text x="286.131px" y="1554.83px" style="font-family:'Gilmer-Bold', 'Gilmer';font-weight:700;font-size:75px;fill:#1d1f25;">Iden<tspan x="445.623px " y="1554.83px ">t</tspan>it<tspan x="526.617px " y="1554.83px ">y</tspan> V<tspan x="636.26px " y="1554.83px ">a</tspan>lid<tspan x="772.352px " y="1554.83px ">a</tspan>tio<tspan x="917.069px " y="1554.83px ">n</tspan></text></g><g id="HUB"><text x="490.268px" y="454.167px" style="font-family:'Gilmer-Heavy', 'Gilmer';font-weight:800;font-size:123.392px;fill:#1d1f25;">HU<tspan x="670.273px " y="454.167px ">B</tspan></text></g><path id="Path-14" d="M1147.92,993.75l100,50l-100,50l-0,-41.667l-1150,0l-0,-16.666l1150,-0l-0,-41.667Z" style="fill:#4d27aa;fill-rule:nonzero;"/><path id="Path-16" d="M75,1212.5l0,33.333l6.25,0l0,12.5l-6.25,0l0,33.334l-79.167,-39.584l79.167,-39.583Zm1172.92,33.333l-0,12.5l-41.667,0l0,-12.5l41.667,0Zm-83.334,0l0,12.5l-41.666,0l-0,-12.5l41.666,0Zm-83.333,0l0,12.5l-41.667,0l0,-12.5l41.667,0Zm-83.333,0l-0,12.5l-41.667,0l0,-12.5l41.667,0Zm-83.334,0l0,12.5l-41.666,0l-0,-12.5l41.666,0Zm-83.333,0l0,12.5l-41.667,0l0,-12.5l41.667,0Zm-83.333,0l-0,12.5l-41.667,0l0,-12.5l41.667,0Zm-83.334,0l0,12.5l-41.666,0l-0,-12.5l41.666,0Zm-83.333,0l0,12.5l-41.667,0l0,-12.5l41.667,0Zm-83.333,0l-0,12.5l-41.667,0l0,-12.5l41.667,0Zm-83.334,0l0,12.5l-41.666,0l-0,-12.5l41.666,0Zm-83.333,0l0,12.5l-41.667,0l0,-12.5l41.667,0Zm-83.333,0l-0,12.5l-41.667,0l0,-12.5l41.667,0Zm-83.334,0l0,12.5l-41.666,0l-0,-12.5l41.666,0Z" style="fill:#02acff;fill-rule:nonzero;"/><g id="Group-4"><circle id="Oval" cx="81.082" cy="874.424" r="76.689" style="fill:#00acff;fill-opacity:0.75;stroke:#00acff;stroke-width:10.28px;"/><g id="_4" serif:id="4"><g transform="matrix(0.999848,0.0174524,-0.0174524,0.999848,15.7025,-0.893811)"><text x="59.062px" y="899.214px" style="font-family:'Gilmer-Heavy', 'Gilmer';font-weight:800;font-size:71.978px;fill:#fff;">4</text></g></g></g></g></svg>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 1250 1667" version="1.1"
+    xmlns="http://www.w3.org/2000/svg"
+    xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve"
+    xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;">
+    <g id="h12">
+        <g id="HVN-Transit-Gateway">
+            <text x="230.706px" y="740.617px" style="font-family:'Gilmer-Bold', 'Gilmer';font-weight:700;font-size:75px;fill:#1d1f25;">HVN Transit Gateway</text>
+            <text x="401.143px" y="832.283px" style="font-family:'Gilmer-Bold', 'Gilmer';font-weight:700;font-size:75px;fill:#1d1f25;">Attachment</text>
+        </g>
+        <g id="Identity-Validation">
+            <text x="286.131px" y="1454.83px" style="font-family:'Gilmer-Bold', 'Gilmer';font-weight:700;font-size:75px;fill:#1d1f25;">Identity Validation</text>
+        </g>
+        <g id="HUB">
+            <text x="490.268px" y="454.167px" style="font-family:'Gilmer-Heavy', 'Gilmer';font-weight:800;font-size:128px;fill:#1d1f25;">HUB</text>
+        </g>
+        <path id="Path-14" d="M1147.92,993.75l100,50l-100,50l-0,-41.667l-1150,0l-0,-16.666l1150,-0l-0,-41.667Z" style="fill:#4d27aa;fill-rule:nonzero;"/>
+        <path id="Path-16" d="M75,1212.5l0,33.333l6.25,0l0,12.5l-6.25,0l0,33.334l-79.167,-39.584l79.167,-39.583Zm1172.92,33.333l-0,12.5l-41.667,0l0,-12.5l41.667,0Zm-83.334,0l0,12.5l-41.666,0l-0,-12.5l41.666,0Zm-83.333,0l0,12.5l-41.667,0l0,-12.5l41.667,0Zm-83.333,0l-0,12.5l-41.667,0l0,-12.5l41.667,0Zm-83.334,0l0,12.5l-41.666,0l-0,-12.5l41.666,0Zm-83.333,0l0,12.5l-41.667,0l0,-12.5l41.667,0Zm-83.333,0l-0,12.5l-41.667,0l0,-12.5l41.667,0Zm-83.334,0l0,12.5l-41.666,0l-0,-12.5l41.666,0Zm-83.333,0l0,12.5l-41.667,0l0,-12.5l41.667,0Zm-83.333,0l-0,12.5l-41.667,0l0,-12.5l41.667,0Zm-83.334,0l0,12.5l-41.666,0l-0,-12.5l41.666,0Zm-83.333,0l0,12.5l-41.667,0l0,-12.5l41.667,0Zm-83.333,0l-0,12.5l-41.667,0l0,-12.5l41.667,0Zm-83.334,0l0,12.5l-41.666,0l-0,-12.5l41.666,0Z" style="fill:#02acff;fill-rule:nonzero;"/>
+        <g id="Group-4">
+            <circle id="Oval" cx="81.082" cy="874.424" r="76.689" style="fill:#00acff;fill-opacity:0.75;stroke:#00acff;stroke-width:10.28px;"/>
+            <g id="_4" serif:id="4">
+                <g transform="matrix(0.999848,0.0174524,-0.0174524,0.999848,15.7025,-0.893811)">
+                    <text x="59.062px" y="899.214px" style="font-family:'Gilmer-Heavy', 'Gilmer';font-weight:800;font-size:72px;fill:#fff;">4</text>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
